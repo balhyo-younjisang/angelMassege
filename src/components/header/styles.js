@@ -8,6 +8,9 @@ export const HeaderForm = styled.header`
     display : flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    } 
 `;
 
 export const Logo = styled.h2`
